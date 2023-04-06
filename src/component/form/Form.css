@@ -1,0 +1,185 @@
+.admission {
+    min-height: 80vh;
+  }
+  
+  .admission_content {
+    background-color: #fff;
+    padding: 25px 0;
+  }
+  .admission .admission_noti{
+    margin-top: 20px;
+  }
+  .admission h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  .admission .radio-picker{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .admission .radio-picker > label{
+    flex: 1;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+  }
+  .admission .admission_content-info{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .admission h3 {
+    display: flex;
+    margin-left: 10px;
+  }
+  .admission .input-ele{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+  }
+  .admission .input-ele .input-wrap{
+    flex: 1;
+  }
+  .admission  input[type="text"], .admission input[type="email"], .admission input[type="tel"], .admission input[type="date"],
+  .admission select {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 6px;
+    box-shadow: none;
+    letter-spacing: 1px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #c4c1c1;
+    width: 100%;
+    box-sizing: border-box;
+    height: 36px;
+  }
+  
+  .admission .table-score table input[type="number"] {
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: center;
+  }
+  .admission .table-score table input[type="number"]: focus {
+    border: none;
+    outline: none;
+  }
+.admission .table-score{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 16px;
+    margin-top: 10px;
+  }
+.admission .table-score .score-avg{
+  margin-left: 15px;
+  text-align: start;
+  font-size: 16px;
+  font-weight: 500;
+}
+.admission .table-score table>tbody>tr>th{
+  background-color: #f6f6f6;
+  padding: 12px !important;
+  color: #01458E;
+  text-align: center !important;
+  line-height: 16px;
+  font-size: 14px;
+}
+.admission .table-score .table1 tbody>tr>th:nth-child(4){
+  width: 200px;
+}
+.admission .table-score .table2 tbody>tr>th:nth-child(1){
+  width: 100px;
+}
+.admission .table-score table input[type="number"]::-webkit-outer-spin-button,
+.admission .table-score table input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0
+}
+.admission .table-score table input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+.admission .table-score table input[type="text"] {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+.admission label{
+  display: flex !important;
+  text-align: left;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  width: 100px;
+}
+
+.admission .admission_content-info .group-ele{
+  width: 100%;
+}
+
+  .admission input[type="submit"] {
+    background-color: #01458E;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  .admission form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+
+  .admission select{
+    padding: 0 !important;
+  }
+
+  
+
+
+
+
+  input[type="radio"] + label {
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 25px;
+    position: relative;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  
+  input[type="radio"]:checked + label:before {
+    background-color: #333;
+  }
+
+  
